@@ -10,36 +10,45 @@ header {
     display: flex;
     height: 60px;
     width: 1050px;
-    border: 1px solid black;
-    background-color: rgb(167, 167, 224);
+    /*border: 1px solid black;
+    background-color: rgb(167, 167, 224);*/
 }
 h3 {
     width: 350px;
     height: 60px;
-    border: 1px solid black;
+    /*border: 1px solid black;/*
     text-decoration: none;
     /*text-align: center;*/
     margin-top: 15px;
 }
 nav {
+    word-spacing: 4px;
     width: 350px;
     height: 60px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     text-decoration: none;
     justify-content: center;
     margin-top: 15px;
     padding-left: 60px;
+    color: black;
 }
 div {
+    word-spacing: 4px;
     width: 350px;
     text-decoration: none;
     text-align: center;
     height: 60px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-top: 15px;
+    color: black;
 }
 a {
     text-decoration: none;
     text-align: center;
     /*justify-content: center;*/
+}
+section {
+    width: 1050px;
+    height: 525px;
+    background-color: rgb(108, 229, 150);
 }
