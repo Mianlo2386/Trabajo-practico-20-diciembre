@@ -7,6 +7,7 @@ body {
     margin-left: 10%;
 }
 header {
+    font-family: Solway, cursive;
     display: flex;
     height: 60px;
     width: 1050px;
@@ -23,17 +24,17 @@ h3 {
 }
 nav {
     word-spacing: 4px;
-    width: 350px;
+    width: 450px;
     height: 60px;
     /*border: 1px solid black;*/
     text-decoration: none;
     justify-content: center;
     margin-top: 15px;
-    padding-left: 60px;
+    padding-left: 50px;
     color: black;
 }
 div {
-    word-spacing: 4px;
+    word-spacing: 5px;
     width: 350px;
     text-decoration: none;
     text-align: right;
@@ -52,7 +53,7 @@ main {
     font-family: Solway, cursive;
 }
 section {
-    width: 525px;
+    width: 530px;
     height: 525px;
     /*background-color: rgb(108, 229, 150);*/
     background-color: aqua;
@@ -67,18 +68,18 @@ section h3 {
 }
 section h1 {
     font-size: 200%;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 section p {
     margin-top: 25px;
     /*border: 1px solid blacK;*/
-    padding-right: 105px;
+    padding-right: 110px;
 }
 section img {
     align-content: center;
-    margin-top: 125px;
-    width: 300px;
-    height: 300px;
+    margin-top: 85px;
+    width: 350px;
+    height: 350px;
     border: 5px solid white;
-    border-radius: 150px;
+    border-radius: 250px;
 }
