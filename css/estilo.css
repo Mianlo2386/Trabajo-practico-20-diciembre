@@ -4,17 +4,22 @@
     padding: 0;
 }
 body {
-    margin-left: 10%;
+    /*margin-left: 10%;
+    background-color: blue;*/
 }
 header {
+    
+    padding-left: 9%;
     font-family: Solway, cursive;
     display: flex;
     height: 60px;
-    width: 1050px;
-    /*border: 1px solid black;
-    background-color: rgb(167, 167, 224);*/
+    width: 100%;
+    position: fixed;
+    /*border: 1px solid black;*/
+    background-color: white ;
+    box-shadow: 10px 0px 10px grey;
 }
-h3 {
+header h3 {
     width: 350px;
     height: 60px;
     /*border: 1px solid black;/*
@@ -22,18 +27,19 @@ h3 {
     /*text-align: center;*/
     margin-top: 15px;
 }
-nav {
+header nav {
     word-spacing: 4px;
     width: 450px;
     height: 60px;
     /*border: 1px solid black;*/
     text-decoration: none;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
     padding-left: 50px;
     color: black;
+    font-size: 100%;
 }
-div {
+header div {
     word-spacing: 5px;
     width: 350px;
     text-decoration: none;
@@ -42,44 +48,316 @@ div {
     /*border: 1px solid black;*/
     margin-top: 15px;
     color: black;
+    font-size: 80%;
 }
-a {
+header a {
+    color: black;
     text-decoration: none;
     text-align: center;
     /*justify-content: center;*/
 }
 main {
+    font-family: Solway;
+    /*width: 1360px;
+    height: 550px;
+    background-color: rgb(255, 0, 34);
+    border: 1px solid black;*/
+}
+.primera {
     display: flex;
-    font-family: Solway, cursive;
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 580px;
+    background-color: rgb(181, 245, 168);
+}
+.primera a {
+    font-size: 130%;
+    margin-left: 0%;
+    margin-right: 10px;
+}
+.primera button {
+    margin-right: 15px;
 }
 section {
-    width: 530px;
-    height: 525px;
-    /*background-color: rgb(108, 229, 150);*/
-    background-color: rgb(106, 236, 236);
-    text-align: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
 }
-section h3 {
-    padding-left: 50px;
-    /*border: 1px solid blacK;*/
-    text-align: center;
-    height: 25px;
-    margin-top: 150px;
-}
-section h1 {
+div h2 {
     font-size: 200%;
-    padding-left: 40px;
+    /*border: 1px solid black;*/
+    margin-top: 165px;
+    margin-bottom: 30px;
+    margin-left: 0;
 }
-section p {
-    margin-top: 25px;
-    /*border: 1px solid blacK;*/
-    padding-right: 110px;
+div h1 {
+    font-size: 300%;
+    /*border: 1px solid black;*/ 
+    margin-bottom: 30px;
+} 
+div p {
+    font-size: 200%;
+    /*border: 1px solid black;*/
+    margin-bottom: 30px;
 }
-section img {
-    align-content: center;
-    margin-top: 85px;
-    width: 350px;
-    height: 350px;
-    border: 5px solid white;
+div button {
+    background-color: black;
+    color: white;
+    font-size: 200%;
+    /*border: 1px solid black;*/
+}
+div a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 200%;
+    /*border: 1px solid black;*/
+}
+.imagen {
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 125px;
     border-radius: 250px;
+    border: 15px solid white;
+}
+.flecha{
+    display: flex;
+    /*border: 1px solid black;*/
+    font-size: 100%;
+    width: 1350px;
+    height: 30px;
+    background-color: rgb(181, 245, 168);
+    justify-content: center;
+    margin: 0 auto;
+}
+.segunda {
+    padding-bottom: 20px;
+}
+.segundabis {
+    display: flex;
+    /*border: 1px solid black;*/
+    width: 1305px;
+    height: 375px;
+}
+.encabezado1 p{
+    color: black;
+    /*border: 1px solid black;*/
+    background-color: rgb(181, 245, 168);
+    align-items: center;
+    margin: 30px auto;
+    font-size: 100%;
+    width: 102px;
+    height: 22px;
+}
+.encabezado1 h2 {
+    color: black;
+    /*border: 1px solid black;*/
+    margin: 15px 0 0 0;
+    text-align: center;
+    font-size: 200%;
+}
+.presentación {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.presentación h2 {
+    /*border: 1px solid black;*/
+    margin-left: 16.5%;
+    margin-top: 5%;
+    font-size: 200%;
+    width: 725px;
+    height: 50px;
+}
+.presentación h2 span {
+    text-decoration: underline rgb(181, 245, 168);
+}
+.presentación p {
+    /*border: 1px solid black;*/
+    margin-left: 16.5%;
+    margin-top: 1%;
+    font-size: 150%;
+    width: 725px;
+    height: 200px;
+}
+.experiencia {
+    /*border: 1px solid black;*/
+    margin-left: 10%;
+    margin-top: 2.7%;
+    margin-right: 0%;
+    width: 400px;
+    height: 258px;
+}
+.experiencia h3 {
+    display: flex;
+    /*border: 1px solid black;*/
+    border-radius: 100px;
+    font-size: 1300%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px; 
+    background-color: rgb(181, 245, 168);
+    /*padding: 60px;*/
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    padding-top: 0%;
+}
+.experiencia h4 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+.tabladatos {
+    /*border: 1px solid black;*/
+    font-family: Solway, cursive;
+    margin-left: 8.5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 1200px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.partesuperiortabla {
+    color: grey;
+}
+.parteinferiortabla {
+    color: black;
+}
+.email {
+    margin-left: 0%;
+    font-size: 100%;
+    color: black;
+    text-decoration: underline;
+}
+.tercera {
+    background-color: ghostwhite;
+    width: 1350px;
+    height: 750px;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+.tercera p {
+    margin: 30px auto;
+    background-color: rgb(181, 245, 168);
+    width: 155px;
+    height: 23px;
+    font-size: 110%;
+}
+.tercera h2 {
+    font-size: 200%;
+    margin: 20px auto;
+    text-align: center;
+}
+.padre {
+    display: flex;
+    justify-content: center;
+}
+.caja1 {
+    margin: 0 10px;
+    /*border: 1px solid black;*/
+    width: 360px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.caja1 p {
+    text-align: center;
+    font-size: 115%;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    width: 360px;
+    height: 120px;
+    background-color: ghostwhite;
+    color: gray;
+    padding-top: 30px;
+}
+.caja1 i { 
+    /*margin-top: 50px;*/
+    width: 360px;
+    height: 60px;
+    color: rgb(181, 245, 168);
+    font-size: 50px;
+    /*background-color: aqua;*/
+    padding-top: 60px;
+    padding-bottom: 30px;
+    /*padding-left: 140px;*/
+    /*border: 1px solid black;*/
+    justify-content: center;
+}
+.caja1 h3 strong {
+    width: 360px;
+    /*height: 190px;*/
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+    font-size: 150%;
+    padding-top: 30px;
+}
+.padre2 {
+    display: flex;
+    justify-content: center;
+}
+.caja2 {
+    margin: 0 10px;
+    /*border: 1px solid black;*/
+    width: 360px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.caja2 p {
+    text-align: center;
+    font-size: 115%;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    width: 360px;
+    height: 120px;
+    background-color: ghostwhite;
+    color: gray;
+    padding-top: 30px;
+}
+.caja2 i { 
+    /*margin-top: 50px;*/
+    width: 360px;
+    height: 60px;
+    color: rgb(181, 245, 168);
+    font-size: 50px;
+    /*background-color: aqua;*/
+    padding-top: 60px;
+    padding-bottom: 30px;
+    /*padding-left: 140px;*/
+    /*border: 1px solid black;*/
+    justify-content: center;
+}
+.caja2 h3 strong {
+    width: 360px;
+    /*height: 190px;*/
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+    font-size: 150%;
+    padding-top: 30px;
+}
+.cuarta {
+    margin: 46px auto;
+    border: 1px solid black;
+    width: 1350px;
+    height: 130px;
+    padding-top: 20px;
+    /*border: 1px solid black;*/
+}
+.cuarta p {
+    background-color: rgb(181, 245, 168);
+    width: 85px;
+    height: 23px;
+    font-size: 110%;
+}
+.cuarta h2 {
+    font-size: 200%;
+    margin: 20px auto;
+    text-align: center;
 }
