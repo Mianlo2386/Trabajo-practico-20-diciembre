@@ -6,6 +6,7 @@
 :root {
     --colorOriginal: rgb(245,223,78);
     --colorElegido: rgb(120,240,121);
+    --colorParaFondo: rgb(248,249,250);
     --colorOpcional: rgb(3,252,255);
 }
 body {
@@ -37,7 +38,7 @@ header nav {
     height: 60px;
     /*border: 1px solid black;*/
     text-decoration: none;
-    justify-content: center;
+    /*justify-content: center;*/
     margin-top: 20px;
     padding-left: 50px;
     color: black;
@@ -351,7 +352,7 @@ div a {
 .cuarta {
     margin: 46px auto;
     width: 1350px;
-    height: 130px;
+    height: 850px;
     padding-top: 20px;
     /*border: 1px solid black;*/
 }
@@ -371,14 +372,14 @@ div a {
     margin-left: 8.5%;
     margin-right: 8.5%;
     flex-wrap: nowrap;
-    width: 1050px;
-    height: 690px;
+    width: 1100px;
+    height: 600px;
     /*border: 1px solid black;*/
 }
 .cuartaBis div{
     flex-direction: column;
     display: flex;
-    width: 525px;
+    width: 550px;
     height: 600px;
     border-left: 2px solid var(--colorElegido);
 }
@@ -388,7 +389,7 @@ div a {
     margin-left: 8.5%;
     margin-right: 8.5%;
     flex-wrap: nowrap;
-    width: 1050px;
+    width: 1100px;
     height: 60px;
     /*border: 1px solid black;*/
 }
@@ -396,7 +397,7 @@ div a {
     flex-direction: column;
     font-size: 200%;
     display: flex;
-    width: 525px;
+    width: 550px;
     height: 60px;
     /*border: 1px solid black;*/
     text-align: left;
@@ -416,7 +417,7 @@ div a {
     margin-top: 3%;
     font-size: 150%;
     /*border: 1px solid black;*/
-    width: 515px;
+    width: 550px;
     height: 40px;
     text-align: left;
 
@@ -426,17 +427,164 @@ div a {
     margin-top: 0;
     font-size: 120%;
     /*border: 1px solid black;*/
-    width: 515px;
+    width: 550px;
     height: 40px;
     text-align: left;
 }
 .miEducación p {
     margin-left: 2%;
     margin-top: 0%;
-    width: 515px;
+    width: 550px;
     height: 60px;
     color: grey;
     /*border: 1px solid black;*/
     text-align: left;
     background-color: white;
 }
+.quinta {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    width: 1050px;
+    height: 60px;
+    /*border: 1px solid black;*/
+}
+.quinta h2 {
+    /*border: 1px solid black;*/
+    margin-left: 0%;
+    height: 30px;
+    width: 240px;
+
+}
+.quintaBis {
+    display: flex; 
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+    margin-left: 8.5%;
+    margin-top: 3%;
+    width: 525px;
+    height: 250px;
+}
+.quintaBis div {
+   /*border: 1px solid black;*/
+    }
+.quintaBis h3 {
+    margin-top: 10px;
+    width: 525px;
+    height: 50px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content:space-between;
+    font-size: 100%;
+}
+.quintaBis span {
+    /*align-content: space-between;*/
+    /*border: 1px solid black;*/
+    width: 70px;
+    height: 35px;
+    margin-left: 69%;
+    text-align: left;
+}
+
+meter {
+    margin-top: 10px;
+    width: 535px;
+    height: 20px;
+    padding-right: 5%;
+  }
+  
+  meter::-webkit-meter-optimum-value {
+    background: var(--colorElegido);
+  }
+  .botonCV {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    color: var(--colorElegido);
+    border: 1px solid black;
+    font-size: 100%;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    margin-left: 41%;
+    margin-top: 50px;
+
+  }
+  .botonCV a {
+    text-decoration: none;
+  }
+  .sexta {
+    background-color: var(--colorParaFondo);
+    width: 1350px;
+    height: 1600px;
+    padding-top: 30px;
+    margin-top: 50px;
+    border: 1px solid black;
+  }
+  .sexta p {
+    margin-top: 50px;
+    
+    width: 78px;
+    height: 25px;
+  }
+  .navbar2  {
+    
+    width: 580px;
+    height: 35px;
+    padding: 20 px auto;
+    justify-content: space-around;
+    font-size: 110%;
+    margin: 30px auto;
+    text-align: center;
+    word-spacing: 20px;
+  }
+  .navbar2 a {
+    text-decoration: none;
+    color: gray;
+    /*padding-left: 100px;*/
+  }
+  .imagenes {
+    margin-top: 10px;
+    margin-left: 8.5%;
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    /*border: 3px solid black;*/
+    justify-content: space-between;
+    
+  }
+  .imagen1 {
+    /*border: 1px solid black;*/
+    flex: 0 1 32%;
+ }
+  .imagen2 {
+    /*border: 1px solid black;*/
+    flex: 0 1 33%;
+  }
+  .imagen3 {
+    /*border: 1px solid black;*/
+    flex: 0 1 32%;
+  }
+  .imagenes2 {
+    margin-top: 10px;
+    margin-left: 8.5%;
+    display: flex;
+    width: 1100px;
+    height: 600px;
+    /*border: 3px solid black;*/
+    justify-content: space-between;
+    
+  }
+  .imagen4 {
+    /*border: 1px solid black;*/
+    flex: 0 1 32%;
+ }
+  .imagen5 {
+    /*border: 1px solid black;*/
+    flex: 0 1 33%;
+  }
+  .imagen6 {
+    /*border: 1px solid black;*/
+    flex: 0 1 32%;
+  }
