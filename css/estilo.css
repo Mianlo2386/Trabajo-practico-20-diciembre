@@ -622,13 +622,12 @@ meter {
     font-size: 60%;
 }
 .octava {
-    width: 1220px;
+    width: 1350px;
     height: 1000px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
-    
-    
-}
+    background-color: var(--colorElegido);
+    }
 .octava2 {
     margin-left: 9.5%;
     width: 610px;
@@ -636,13 +635,14 @@ meter {
     /*border: 1px solid black;*/
 }
 .octava2 h1 {
-    margin-top: 100px;
+    margin: 100px 0;
     font-size: 220%;
 }
 .octava2 h3 {
     margin-top: 60px;
     color: rgb(58, 57, 57);
     text-align: justify;
+    padding-right: 15%;
 }
 .negrita strong {
     color: black;
@@ -653,7 +653,6 @@ meter {
 .octava2 p {
     width: 250px;
     height: 30px;
-    background-color: white;
     margin-top: 10px;
     margin-left: 0px;
     color: rgb(58, 57, 57);
@@ -671,15 +670,42 @@ meter {
     justify-content: space-between;
     height: 60px;
     
-    margin-top: 15px;
+    margin-top: 45px;
     margin-left: 0%;
     color: black;
     font-size: 200%;
 }
-
-.octava3 {
-    background-color: aquamarine;
-    width: 610px;
-    height: 1000px;
+.octava3 h1 {
+    margin: 100px 0;
+    font-size: 220%;
+}
+form {
+    /*background-color: aquamarine;*/
+    width: 525px;
+    height: 500px;
     /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 20px 0;
+}
+input[type=text] {
+    
+    padding: 30px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: var(--colorElegido);
+}
+textarea {
+    margin-bottom: 0;
+    min-height: 80px;
+    background-color: var(--colorElegido);
+    border: 0;
+    border-bottom: 1px solid black;
+    resize: vertical;
+}
+button {
+    color: blue;
+    width: 100px;
 }
