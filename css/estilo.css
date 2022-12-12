@@ -487,7 +487,53 @@ div a {
     margin-left: 69%;
     text-align: left;
 }
-
+.barraDeProgreso {
+    margin-top: 10px;
+    width: 480px;
+    height: 10px;
+    padding-right: 5%;
+    border: 1px solid rgb(241, 239, 239); 
+    border-radius: 5px; 
+    overflow: hidden; 
+    background-color: gainsboro; 
+}
+.porcentaje1 {
+    width: 288px;
+    height: 10px;
+    /*border: var(--paraBordes);*/
+    background-color: var(--colorElegido);  
+}
+.porcentaje2 {
+    width: 432px;
+    height: 10px;
+    /*border: var(--paraBordes);*/
+    background-color: var(--colorElegido);  
+}
+.porcentaje3 {
+    width: 408px;
+    height: 10px;
+    /*border: var(--paraBordes);*/
+    background-color: var(--colorElegido);  
+}
+.porcentaje4 {
+    width: 384px;
+    height: 10px;
+    /*border: var(--paraBordes);*/
+    background-color: var(--colorElegido);  
+}
+.porcentaje5 {
+    width: 336px;
+    height: 10px;
+    /*border: var(--paraBordes);*/
+    background-color: var(--colorElegido);  
+}
+.porcentaje6 {
+    width: 456px;
+    height: 10px;
+    /*border: var(--paraBordes);*/
+    background-color: var(--colorElegido);  
+}
+/* función "meter" probada descartada por no respetar la position fija del header
 meter {
     margin-top: 10px;
     width: 535px;
@@ -497,7 +543,7 @@ meter {
   
   meter::-webkit-meter-optimum-value {
     background: var(--colorElegido);
-  }
+  }*/
   .botonCV {
     /*display: flex;*/
     /*flex-wrap: wrap;*/
@@ -525,7 +571,6 @@ meter {
   }
   .sexta p {
     margin-top: 50px;
-    
     width: 78px;
     height: 25px;
   }
@@ -624,7 +669,7 @@ meter {
 }
 .octava {
     width: 1350px;
-    height: 1000px;
+    height: 900px;
     /*border: 1px solid black;*/
     display: flex;
     background-color: var(--colorElegido);
@@ -710,6 +755,13 @@ textarea {
     border: var(--paraBordes);
     background-color: black;
     width: 200px;
-    height: 60px;
+    height: 180px;
     margin: 40px 0 0 0;
+    font-size: 120%;
+    padding: 15px 0;
 }
+.botonEnviar a {
+    color: white;
+    font-size: 120%;
+}
+
