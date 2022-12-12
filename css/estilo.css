@@ -520,7 +520,7 @@ meter {
     height: 1600px;
     padding-top: 30px;
     margin-top: 50px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
   }
   .sexta p {
     margin-top: 50px;
@@ -588,3 +588,98 @@ meter {
     /*border: 1px solid black;*/
     flex: 0 1 32%;
   }
+  .septima {
+    width: 1350px;
+    height: 427px;
+    background-image: url("manos_sobre_teclado.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*opacity: 0.5;*/
+    
+  }
+  .septima h1 {
+    margin-top: 0;
+    margin-bottom: 100px;
+    width: 1000px;
+    padding-left: 24%;
+    padding-top: 75px;
+    color: white;
+    
+  }
+  .septima button {
+    margin-left: 550px;
+    background-color: var(--colorElegido);
+    width: 200px;
+    height: 80px;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .septima a {
+    padding-right: 33px;
+    text-align: center;
+    color: black;
+    font-size: 60%;
+}
+.octava {
+    width: 1220px;
+    height: 1000px;
+    border: 1px solid black;
+    display: flex;
+    
+    
+}
+.octava2 {
+    margin-left: 9.5%;
+    width: 610px;
+    height: 1000px;
+    /*border: 1px solid black;*/
+}
+.octava2 h1 {
+    margin-top: 100px;
+    font-size: 220%;
+}
+.octava2 h3 {
+    margin-top: 60px;
+    color: rgb(58, 57, 57);
+    text-align: justify;
+}
+.negrita strong {
+    color: black;
+}
+.negrita p {
+    color: rgb(58, 57, 57);  
+}
+.octava2 p {
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: rgb(58, 57, 57);
+    text-align: justify;
+    /*border: 1px solid black;*/
+}
+.redes {
+    word-spacing: 15px;
+    width: 150px;
+    height: 45px;
+    
+}
+.redes a {
+    width: 200px;
+    justify-content: space-between;
+    height: 60px;
+    
+    margin-top: 15px;
+    margin-left: 0%;
+    color: black;
+    font-size: 200%;
+}
+
+.octava3 {
+    background-color: aquamarine;
+    width: 610px;
+    height: 1000px;
+    /*border: 1px solid black;*/
+}
