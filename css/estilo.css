@@ -8,6 +8,7 @@
     --colorElegido: rgb(120,240,121);
     --colorParaFondo: rgb(248,249,250);
     --colorOpcional: rgb(3,252,255);
+    --paraBordes: 1px solid black;
 }
 body {
     /*margin-left: 10%;
@@ -654,7 +655,7 @@ meter {
     width: 250px;
     height: 30px;
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: 0;
     color: rgb(58, 57, 57);
     text-align: justify;
     /*border: 1px solid black;*/
@@ -662,15 +663,15 @@ meter {
 .redes {
     word-spacing: 15px;
     width: 150px;
-    height: 45px;
-    
+    height: 40px;
+    /*border: var(--paraBordes);*/
+    margin-top: 150px;
 }
 .redes a {
+    /*border: var(--paraBordes);*/
     width: 200px;
     justify-content: space-between;
     height: 60px;
-    
-    margin-top: 45px;
     margin-left: 0%;
     color: black;
     font-size: 200%;
@@ -688,7 +689,7 @@ form {
     flex-direction: column;
 }
 label {
-    margin: 20px 0;
+    margin: 25px 0;
 }
 input[type=text] {
     
@@ -704,4 +705,11 @@ textarea {
     border: 0;
     border-bottom: 1px solid black;
     resize: vertical;
+}
+.botonEnviar {
+    border: var(--paraBordes);
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    margin: 40px 0 0 0;
 }
