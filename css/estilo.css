@@ -118,7 +118,7 @@ div a {
 .imagen {
     width: 400px;
     height: 400px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 125px;
     border-radius: 250px;
     border: 15px solid white;
@@ -135,8 +135,9 @@ div a {
 }
 /*aca empieza segunda seccion con presentación*/
 .segunda {
+    padding-top: 10px;
     width: 100%;
-    height: 550px;
+    height: 650px;
         /*padding-bottom: 20px;*/
 }
 .segundabis {
@@ -154,6 +155,7 @@ div a {
     font-size: 100%;
     width: 102px;
     height: 22px;
+    
 }
 .encabezado1 h2 {
     color: black;
@@ -217,6 +219,7 @@ div a {
     font-size: 150%;
 }
 .tabladatos {
+    margin-top: 30px;
     font-family: Solway, cursive;
     margin-left: 9%;
     width: 1200px;
@@ -238,13 +241,13 @@ div a {
 }
 /*aca empieza tercera seccion sobre lo que puedo hacer*/
 .tercera {
+    padding-top: 80px;
     background-color: var(--colorParaFondo);
     width: 100%;
-    height: 750px;
-    padding-top: 20px;
+    height: 850px;
 }
 .tercera p {
-    margin: 22px auto;
+    margin: 40px auto;
     background-color: var(--colorElegido);
     width: 155px;
     height: 23px;
@@ -350,8 +353,8 @@ div a {
 .cuarta {
     margin: 46px auto;
     width: 100%;
-    height: 849px;
-    padding-top: 20px;
+    height: 869px;
+    padding-top: 80px;
     overflow: hidden;
 }
 .cuarta p {
@@ -379,6 +382,7 @@ div a {
     display: flex;
     width: 550px;
     height: 600px;
+    border: 0;
     border-left: 2px solid var(--colorElegido);
 }
 .cuarta2 {
@@ -441,6 +445,7 @@ div a {
 }/*aca empieza quinta seccion con mis habilidades*/
 .quinta {
     display: flex;
+    padding-top: 50px;
     margin-top: 5%;
     padding-left: 8.5%;
     /*margin-right: 8.5%;*/
@@ -563,7 +568,7 @@ meter {
     background-color: var(--colorParaFondo);
     width: 100%;
     height: 1600px;
-    padding-top: 30px;
+    padding-top: 70px;
     margin-top: 50px;
   }
   .sexta p {                    
