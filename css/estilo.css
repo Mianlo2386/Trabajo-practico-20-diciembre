@@ -15,20 +15,19 @@ body {
     background-color: blue;*/
 }
 header {
-    padding-left: 9%;
+    /*padding-left: 8.5%;*/
     font-family: Solway, cursive;
     display: flex;
     height: 60px;
     width: 100%;
     position: fixed;
-    /*border: 1px solid black;*/
     background-color: white ;
-    box-shadow: 10px 0px 10px grey;
+    box-shadow: 0px 5px 5px gray;
 }
 header h3 {
+    margin-left: 9%;
     width: 180px;
-    height: 60px;
-    /*border: 1px solid black;*/
+    height: 45px;
     text-decoration: none;
     text-align: left;
     margin-top: 15px;
@@ -36,11 +35,9 @@ header h3 {
 header nav {
     word-spacing: 30px;
     width: 700px;
-    height: 60px;
-    /*border: 1px solid black;*/
+    height: 45px;
     text-decoration: none;
-    /*justify-content: center;*/
-    margin-top: 20px;
+    margin-top: 15px;
     padding-left: 50px;
     color: black;
     font-size: 100%;
@@ -50,10 +47,8 @@ header div {
     width: 200px;
     text-decoration: none;
     text-align: left;
-    height: 60px;
-    /*border: 1px solid black;*/
+    height: 45px;
     margin-top: 15px;
-    margin-right: 0%;
     color: black;
     font-size: 60%;
 }
@@ -62,6 +57,9 @@ header a {
     text-decoration: none;
     text-align: center;
     /*justify-content: center;*/
+}
+a:hover {
+    color: var(--colorElegido);
 }
 main {
     font-family: Solway;
@@ -73,8 +71,7 @@ main {
 /*aca empieza primera seccion con foto de perfil*/
 .primera {
     display: flex;
-    /*border: 1px solid black;*/
-    width: 1350px;
+    width: 100%;
     height: 580px;
     background-color: var(--colorElegido);
 }
@@ -97,7 +94,7 @@ div h2 {
     margin-bottom: 30px;
 }
 div h1 {
-    font-size: 300%;
+    font-size: 325%;
     /*border: 1px solid black;*/ 
     margin-bottom: 30px;
 } 
@@ -130,20 +127,22 @@ div a {
     display: flex;
     /*border: 1px solid black;*/
     font-size: 100%;
-    width: 1350px;
+    width: 100%;
     height: 30px;
     background-color: var(--colorElegido);
     justify-content: center;
     margin: 0 auto;
 }
-/*aca empieza segunda secci+on con presentación*/
+/*aca empieza segunda seccion con presentación*/
 .segunda {
-    /*padding-bottom: 20px;*/
+    width: 100%;
+    height: 550px;
+        /*padding-bottom: 20px;*/
 }
 .segundabis {
     display: flex;
     /*border: 1px solid black;*/
-    width: 1350px;
+    width: 100%;
     height: 375px;
 }
 .encabezado1 p{
@@ -151,7 +150,7 @@ div a {
     /*border: 1px solid black;*/
     background-color: var(--colorElegido);
     align-items: center;
-    margin: 30px auto;
+    margin: 100px auto;
     font-size: 100%;
     width: 102px;
     height: 22px;
@@ -159,7 +158,7 @@ div a {
 .encabezado1 h2 {
     color: black;
     /*border: 1px solid black;*/
-    margin: 15px 0 0 0;
+    margin: 20px 0 0 0;
     text-align: center;
     font-size: 200%;
 }
@@ -218,14 +217,12 @@ div a {
     font-size: 150%;
 }
 .tabladatos {
-    /*border: 1px solid black;*/
     font-family: Solway, cursive;
-    margin-left: 8.5%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-left: 9%;
     width: 1200px;
     height: 80px;
     margin-bottom: 30px;
+    /*border: var(--paraBordes);*/
 }
 .partesuperiortabla {
     color: grey;
@@ -239,15 +236,15 @@ div a {
     color: black;
     text-decoration: underline;
 }
+/*aca empieza tercera seccion sobre lo que puedo hacer*/
 .tercera {
-    background-color: ghostwhite;
-    width: 1350px;
+    background-color: var(--colorParaFondo);
+    width: 100%;
     height: 750px;
     padding-top: 20px;
-    /*border: 1px solid black;*/
 }
 .tercera p {
-    margin: 30px auto;
+    margin: 22px auto;
     background-color: var(--colorElegido);
     width: 155px;
     height: 23px;
@@ -255,7 +252,7 @@ div a {
 }
 .tercera h2 {
     font-size: 200%;
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
 }
 .padre {
@@ -265,8 +262,8 @@ div a {
 .caja1 {
     margin: 0 10px;
     /*border: 1px solid black;*/
-    width: 360px;
-    height: 250px;
+    width: 350px;
+    height: 260px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -274,10 +271,10 @@ div a {
 }
 .caja1 p {
     text-align: center;
-    font-size: 115%;
+    font-size: 120%;
     /*border: 1px solid black;*/
     margin: 0 auto;
-    width: 360px;
+    width: 330px;
     height: 120px;
     background-color: ghostwhite;
     color: gray;
@@ -285,9 +282,9 @@ div a {
 }
 .caja1 i { 
     /*margin-top: 50px;*/
-    width: 360px;
+    width: 350px;
     height: 60px;
-    color: rgb(181, 245, 168);
+    color: var(--colorElegido);
     font-size: 50px;
     /*background-color: aqua;*/
     padding-top: 60px;
@@ -297,7 +294,7 @@ div a {
     justify-content: center;
 }
 .caja1 h3 strong {
-    width: 360px;
+    width: 350px;
     /*height: 190px;*/
     /*border: 1px solid black;*/
     margin-top: 20px;
@@ -311,8 +308,8 @@ div a {
 .caja2 {
     margin: 0 10px;
     /*border: 1px solid black;*/
-    width: 360px;
-    height: 250px;
+    width: 350px;
+    height: 260px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -320,10 +317,10 @@ div a {
 }
 .caja2 p {
     text-align: center;
-    font-size: 115%;
+    font-size: 120%;
     /*border: 1px solid black;*/
     margin: 0 auto;
-    width: 360px;
+    width: 330px;
     height: 120px;
     background-color: ghostwhite;
     color: gray;
@@ -331,9 +328,9 @@ div a {
 }
 .caja2 i { 
     /*margin-top: 50px;*/
-    width: 360px;
+    width: 350px;
     height: 60px;
-    color: rgb(181, 245, 168);
+    color: var(--colorElegido);
     font-size: 50px;
     /*background-color: aqua;*/
     padding-top: 60px;
@@ -343,23 +340,23 @@ div a {
     justify-content: center;
 }
 .caja2 h3 strong {
-    width: 360px;
+    width: 350px;
     /*height: 190px;*/
     /*border: 1px solid black;*/
     margin-top: 20px;
     font-size: 150%;
     padding-top: 30px;
-}
+}/*ava empieza cuarta seccion resumen de cv*/
 .cuarta {
     margin: 46px auto;
-    width: 1350px;
-    height: 850px;
+    width: 100%;
+    height: 849px;
     padding-top: 20px;
-    /*border: 1px solid black;*/
+    overflow: hidden;
 }
 .cuarta p {
     background-color: var(--colorElegido);
-    width: 85px;
+    width: 82px;
     height: 23px;
     font-size: 110%;
 }
@@ -441,15 +438,14 @@ div a {
     /*border: 1px solid black;*/
     text-align: left;
     background-color: white;
-}
+}/*aca empieza quinta seccion con mis habilidades*/
 .quinta {
     display: flex;
     margin-top: 5%;
-    margin-left: 8.5%;
-    margin-right: 8.5%;
-    width: 1050px;
+    padding-left: 8.5%;
+    /*margin-right: 8.5%;*/
+    width: 1070px;
     height: 60px;
-    /*border: 1px solid black;*/
 }
 .quinta h2 {
     /*border: 1px solid black;*/
@@ -461,20 +457,21 @@ div a {
 .quintaBis {
     display: flex; 
     justify-content: space-between;
-    /*border: 1px solid black;*/
     margin-left: 8.5%;
     margin-top: 3%;
-    width: 525px;
+    width: 550px;
     height: 250px;
 }
 .quintaBis div {
-   /*border: 1px solid black;*/
+   /*margin-left: 0;
+   border: 1px solid greenyellow;
+   justify-content: space-between;*/
     }
 .quintaBis h3 {
     margin-top: 10px;
-    width: 525px;
+    /*para controlar ancho barra*/
+    width: 560px;
     height: 50px;
-    /*border: 1px solid black;*/
     display: flex;
     justify-content:space-between;
     font-size: 100%;
@@ -489,10 +486,11 @@ div a {
 }
 .barraDeProgreso {
     margin-top: 10px;
+    /*margin-right: 5%;*/
     width: 480px;
     height: 10px;
+    /*para controlar barra de progreso*/
     padding-right: 5%;
-    border: 1px solid rgb(241, 239, 239); 
     border-radius: 5px; 
     overflow: hidden; 
     background-color: gainsboro; 
@@ -516,19 +514,19 @@ div a {
     background-color: var(--colorElegido);  
 }
 .porcentaje4 {
-    width: 384px;
+    width: 80%;
     height: 10px;
     /*border: var(--paraBordes);*/
     background-color: var(--colorElegido);  
 }
 .porcentaje5 {
-    width: 336px;
+    width: 70%;
     height: 10px;
     /*border: var(--paraBordes);*/
     background-color: var(--colorElegido);  
 }
 .porcentaje6 {
-    width: 456px;
+    width: 95%;
     height: 10px;
     /*border: var(--paraBordes);*/
     background-color: var(--colorElegido);  
@@ -540,7 +538,6 @@ meter {
     height: 20px;
     padding-right: 5%;
   }
-  
   meter::-webkit-meter-optimum-value {
     background: var(--colorElegido);
   }*/
@@ -554,23 +551,23 @@ meter {
     height: 50px;
     background-color: white;
     justify-content: center;
-    margin-left: 41%;
-    margin-top: 50px;
+    margin: 50px 42.5%;
+    /*margin-left: 41%;
+    margin-top: 50px;*/
 
   }
   .botonCV a {
     text-decoration: none;
-  }
+  }/*aca empieza sexta seccion sobre proyectos*/
   .sexta {
     background-color: var(--colorParaFondo);
-    width: 1350px;
+    width: 100%;
     height: 1600px;
     padding-top: 30px;
     margin-top: 50px;
-    /*border: 1px solid black;*/
   }
-  .sexta p {
-    margin-top: 50px;
+  .sexta p {                    
+    margin: 50px 46%;
     width: 78px;
     height: 25px;
   }
@@ -597,19 +594,21 @@ meter {
     width: 1100px;
     height: 600px;
     /*border: 3px solid black;*/
-    justify-content: space-between;
-    
+    justify-content: space-between;  
   }
   .imagen1 {
     /*border: 1px solid black;*/
     flex: 0 1 32%;
+    max-width: 32%;
  }
   .imagen2 {
     /*border: 1px solid black;*/
     flex: 0 1 33%;
+    max-width: 33% ;
   }
   .imagen3 {
     /*border: 1px solid black;*/
+    max-width: 32%;
     flex: 0 1 32%;
   }
   .imagenes2 {
@@ -625,24 +624,25 @@ meter {
   .imagen4 {
     /*border: 1px solid black;*/
     flex: 0 1 32%;
+    max-width: 32%;
  }
   .imagen5 {
     /*border: 1px solid black;*/
     flex: 0 1 33%;
+    max-width: 33%;
   }
   .imagen6 {
     /*border: 1px solid black;*/
     flex: 0 1 32%;
-  }
+    max-width: 32%;
+  }/*aca empieza septima con imagen de fondo*/
   .septima {
-    width: 1350px;
+    width: 100%;
     height: 427px;
     background-image: url("manos_sobre_teclado.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    /*opacity: 0.5;*/
-    
+    background-size: cover;    
   }
   .septima h1 {
     margin-top: 0;
@@ -666,60 +666,57 @@ meter {
     text-align: center;
     color: black;
     font-size: 60%;
-}
+} /*aca empieza footer*/
 .octava {
-    width: 1350px;
+    width: 100%;
     height: 900px;
-    /*border: 1px solid black;*/
     display: flex;
     background-color: var(--colorElegido);
     }
 .octava2 {
-    margin-left: 9.5%;
+    margin-left: 8.5%;
     width: 610px;
-    height: 1000px;
-    /*border: 1px solid black;*/
+    height: 900px;           
 }
 .octava2 h1 {
-    margin: 100px 0;
+    margin: 105px 0;
     font-size: 220%;
-}
+    }
 .octava2 h3 {
     margin-top: 60px;
     color: rgb(58, 57, 57);
-    text-align: justify;
+    /*text-align: justify;*/
     padding-right: 15%;
 }
-.negrita strong {
-    color: black;
-}
-.negrita p {
-    color: rgb(58, 57, 57);  
-}
+
 .octava2 p {
     width: 250px;
     height: 30px;
     margin-top: 10px;
     margin-left: 0;
-    color: rgb(58, 57, 57);
+    color: rgb(17, 17, 17);
     text-align: justify;
-    /*border: 1px solid black;*/
 }
 .redes {
-    word-spacing: 15px;
-    width: 150px;
-    height: 40px;
-    /*border: var(--paraBordes);*/
-    margin-top: 150px;
+    /*width: 240px;
+    height: 45px;
+    border: var(--paraBordes);
+    margin-top: 130px;*/
+    position: relative;
+    right: 32px;
+    top: 105px;
+    
 }
-.redes a {
-    /*border: var(--paraBordes);*/
-    width: 200px;
-    justify-content: space-between;
-    height: 60px;
-    margin-left: 0%;
+.redes i {
+    margin-left: 0px;
+    width: 40px;
+    height: 40px;
     color: black;
-    font-size: 200%;
+    font-size: 110%;
+    justify-content: left;
+}
+.iconos {
+    color: var(--colorElegido);
 }
 .octava3 h1 {
     margin: 100px 0;
@@ -727,14 +724,14 @@ meter {
 }
 form {
     /*background-color: aquamarine;*/
-    width: 525px;
+    width: 480px;
     height: 500px;
     /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
 }
 label {
-    margin: 25px 0;
+    margin: 15px 0 25px 0;
 }
 input[type=text] {
     
@@ -756,12 +753,13 @@ textarea {
     background-color: black;
     width: 200px;
     height: 180px;
-    margin: 40px 0 0 0;
+    margin: 50px 0 0 0;
     font-size: 120%;
     padding: 15px 0;
 }
 .botonEnviar a {
     color: white;
-    font-size: 120%;
+    font-size: 100%;
+
 }
 
