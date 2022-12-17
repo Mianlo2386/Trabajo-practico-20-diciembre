@@ -102,26 +102,25 @@ main {
     100% {
         width: 100%;
     }
-@keyframes parpadeo {
+/*@keyframes parpadeo {
     0%,100% {
         border-color :transparent;
     }
     50% {
         border-color: black;
-    }
+    } NO FUNCIONA TREANSICION*/
     
 }
 
-}
+
 .primeraIzq h1 {
-    animation: maqEscribir 6s steps(11), parpadeo 0.5s steps(1) infinite;
+    animation: maqEscribir 3s steps(13) 3;
     
 }
 .primeraIzq h1 {
-    letter-spacing: 5px;
-    font-size: 380%;
+    font-size: 410%;
     margin-bottom: 20px;
-    border-right: 3px solid black;
+    border-right: 5px solid black;
     overflow: hidden;
 
 }
@@ -254,8 +253,8 @@ main {
     margin-left: 130px;
     margin-bottom: 20px;
     animation-name: escala;
-    animation-duration: 8s;
-    animation-iteration-count: 20;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
 }
 
 .experiencia h4 {
@@ -726,7 +725,7 @@ meter {
     background-color: var(--colorElegido);
     }
 .octava2 {
-    margin-left: 8.5%;
+    margin-left: 8.9%;
     width: 610px;
     height: 900px;           
 }
