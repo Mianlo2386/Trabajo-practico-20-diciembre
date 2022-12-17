@@ -45,7 +45,10 @@ header nav {
     padding-left: 50px;
     color: black;
     font-size: 100%;
-    
+}
+header nav a:hover {
+    text-decoration: underline;
+    color: var(--colorElegido);
 }
 header div {
     word-spacing: 15px;
@@ -92,9 +95,34 @@ main {
     font-size: 200%;
     margin-bottom: 30px;
 }
+@keyframes maqEscribir {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+@keyframes parpadeo {
+    0%,100% {
+        border-color :transparent;
+    }
+    50% {
+        border-color: black;
+    }
+    
+}
+
+}
 .primeraIzq h1 {
-    font-size: 400%;
+    animation: maqEscribir 6s steps(11), parpadeo 0.5s steps(1) infinite;
+    
+}
+.primeraIzq h1 {
+    letter-spacing: 5px;
+    font-size: 380%;
     margin-bottom: 20px;
+    border-right: 3px solid black;
+    overflow: hidden;
 
 }
 .primeraIzq p {
@@ -106,13 +134,16 @@ main {
     padding: 20px;
 }
 .mistrabajos {
-
-    
     border: var(--paraBordes);
     color: white;
     background-color: black;
-    
     text-decoration: none;
+}
+.contactame {
+    color: black;
+}
+.contactame:hover {
+    color: white;
 }
 .imagenPerfil {
     width: 400px;
@@ -120,7 +151,8 @@ main {
     margin-left: 100px;
     margin-top: 125px;
     border-radius: 250px;
-    border: 15px solid white; 
+    border: 15px solid white;
+    
 }
 .flecha{
     display: flex;
@@ -195,7 +227,18 @@ main {
     width: 400px;
     height: 258px;
 }
-.experiencia h3 {
+@keyframes escala {
+    0%{
+        transform: scale(1.0)
+    }
+    50%{
+        transform: scale(1.5)
+    } 
+    100% {
+        transform: scale 1.2;
+    }
+}
+.experiencia h1 {
     display: flex;
     /*border: 1px solid black;*/
     border-radius: 100px;
@@ -210,8 +253,11 @@ main {
     margin-top: 40px;
     margin-left: 130px;
     margin-bottom: 20px;
-    padding-top: 0%;
+    animation-name: escala;
+    animation-duration: 8s;
+    animation-iteration-count: 20;
 }
+
 .experiencia h4 {
     margin-top: 20px;
     text-align: center;
@@ -526,7 +572,6 @@ main {
 .porcentaje5 {
     width: 70%;
     height: 10px;
-    /*border: var(--paraBordes);*/
     background-color: var(--colorElegido);  
 }
 .porcentaje6 {
@@ -720,7 +765,6 @@ meter {
     color: black;
     font-size: 200%;
     justify-content: left;
-    word-spacing: 10px;
 }
 .redes i:hover {
     color: gray;
