@@ -385,7 +385,7 @@ a:hover {
 }
 .cuarta p {
     background-color: var(--colorElegido);
-    width: 82px;
+    width: 80px;
     height: 23px;
     font-size: 110%;
 }
@@ -487,7 +487,7 @@ a:hover {
 .quintaBis h3 {
     margin-top: 10px;
     /*para controlar ancho barra*/
-    width: 560px;
+    width: 550px;
     height: 50px;
     display: flex;
     justify-content:space-between;
@@ -528,18 +528,18 @@ a:hover {
     background-color: var(--colorElegido);  
 }
 .porcentaje4 {
-    width: 80%;
+    width: 336px;
     height: 10px;
     /*border: var(--paraBordes);*/
     background-color: var(--colorElegido);  
 }
 .porcentaje5 {
-    width: 70%;
+    width: 288px;
     height: 10px;
     background-color: var(--colorElegido);  
 }
 .porcentaje6 {
-    width: 95%;
+    width: 475px;
     height: 10px;
     /*border: var(--paraBordes);*/
     background-color: var(--colorElegido);  
