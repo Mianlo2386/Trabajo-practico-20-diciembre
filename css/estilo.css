@@ -10,15 +10,13 @@
     --colorOpcional: rgb(3,252,255);
     --paraBordes: 1px solid black;
 }
+main {
+    font-family: Solway, cursive;
+}
 html {
     scroll-behavior: smooth;
 }
-body {
-    /*margin-left: 10%;
-    background-color: blue;*/
-}
 header {
-    /*padding-left: 8.5%;*/
     font-family: Solway, cursive;
     display: flex;
     height: 60px;
@@ -26,6 +24,7 @@ header {
     position: fixed;
     background-color: white ;
     box-shadow: 0px 5px 5px gray;
+    z-index: 1;
 }
 header h3 {
     margin-left: 9%;
@@ -64,17 +63,9 @@ header a {
     color: black;
     text-decoration: none;
     text-align: center;
-    /*justify-content: center;*/
 }
 a:hover {
     color: var(--colorElegido);
-}
-main {
-    font-family: Solway;
-    /*width: 1360px;
-    height: 550px;
-    background-color: rgb(255, 0, 34);
-    border: 1px solid black;*/
 }
 /*aca empieza primera seccion con foto de perfil*/
 
@@ -88,7 +79,6 @@ main {
     margin-left: 8.5%;
     width: 41.5%;
     height: 580px;
-    
 }
 .primeraIzq h2 {
     padding-top: 200px;
@@ -108,14 +98,10 @@ main {
     }
     50% {
         border-color: black;
-    } NO FUNCIONA TREANSICION*/
-    
+    } NO FUNCIONA TRANSICION DE PARPADEO*/   
 }
-
-
 .primeraIzq h1 {
-    animation: maqEscribir 3s steps(13) 3;
-    
+    animation: maqEscribir 3s steps(13) 3;   
 }
 .primeraIzq h1 {
     font-size: 410%;
@@ -155,7 +141,6 @@ main {
 }
 .flecha{
     display: flex;
-    /*border: 1px solid black;*/
     font-size: 100%;
     width: 100%;
     height: 30px;
@@ -178,18 +163,15 @@ main {
 }
 .encabezado1 p{
     color: black;
-    /*border: 1px solid black;*/
     background-color: var(--colorElegido);
     align-items: center;
     margin: 100px auto;
     font-size: 100%;
     width: 102px;
-    height: 22px;
-    
+    height: 22px; 
 }
 .encabezado1 h2 {
     color: black;
-    /*border: 1px solid black;*/
     margin: 20px 0 0 0;
     text-align: center;
     font-size: 200%;
@@ -393,7 +375,7 @@ main {
     margin-top: 20px;
     font-size: 150%;
     padding-top: 30px;
-}/*ava empieza cuarta seccion resumen de cv*/
+}/*aca empieza cuarta seccion resumen de cv*/
 .cuarta {
     margin: 46px auto;
     width: 100%;
@@ -447,13 +429,7 @@ main {
     height: 60px;
     /*border: 1px solid black;*/
     text-align: left;
-
 }
-/*.cuartaBis div div{
-    width: 100%;
-    height: 200px;
-    border: 1px solid black;
-}*/
 .miEducación {
     flex-direction: column;
     /*border: 1px solid black;*/
@@ -492,16 +468,13 @@ main {
     padding-top: 50px;
     margin-top: 5%;
     padding-left: 8.5%;
-    /*margin-right: 8.5%;*/
     width: 1070px;
     height: 60px;
 }
 .quinta h2 {
-    /*border: 1px solid black;*/
     margin-left: 0%;
     height: 30px;
     width: 240px;
-
 }
 .quintaBis {
     display: flex; 
@@ -511,11 +484,6 @@ main {
     width: 550px;
     height: 250px;
 }
-.quintaBis div {
-   /*margin-left: 0;
-   border: 1px solid greenyellow;
-   justify-content: space-between;*/
-    }
 .quintaBis h3 {
     margin-top: 10px;
     /*para controlar ancho barra*/
@@ -526,8 +494,6 @@ main {
     font-size: 100%;
 }
 .quintaBis span {
-    /*align-content: space-between;*/
-    /*border: 1px solid black;*/
     width: 70px;
     height: 35px;
     margin-left: 69%;
@@ -535,7 +501,6 @@ main {
 }
 .barraDeProgreso {
     margin-top: 10px;
-    /*margin-right: 5%;*/
     width: 480px;
     height: 10px;
     /*para controlar barra de progreso*/
@@ -580,7 +545,7 @@ main {
     background-color: var(--colorElegido);  
 }
 /* función "meter" probada descartada por no respetar la position fija del header
-meter {
+meter NO FUNCIONA {
     margin-top: 10px;
     width: 535px;
     height: 20px;
@@ -590,8 +555,6 @@ meter {
     background: var(--colorElegido);
   }*/
   .botonCV {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
     color: var(--colorElegido);
     border: 1px solid black;
     font-size: 100%;
@@ -607,15 +570,20 @@ meter {
   .botonCV a {
     text-decoration: none;
   }/*aca empieza sexta seccion sobre proyectos*/
-  .sexta {
+ .sexta {
     background-color: var(--colorParaFondo);
     width: 100%;
-    height: 1600px;
+    height: 1400px;
     padding-top: 70px;
     margin-top: 50px;
   }
+  .sexta h2 strong {
+    margin-left: 10px;
+    /*border: 1px solid black;*/
+    font-size: 100%;
+  }
   .sexta p {                    
-    margin: 50px 46%;
+    margin: 50px 46.5%;
     width: 78px;
     height: 25px;
   }
@@ -623,7 +591,7 @@ meter {
     
     width: 580px;
     height: 35px;
-    padding: 20 px auto;
+    padding: 40 px auto;
     justify-content: space-around;
     font-size: 110%;
     margin: 30px auto;
@@ -633,61 +601,81 @@ meter {
   .navbar2 a {
     text-decoration: none;
     color: gray;
-    /*padding-left: 100px;*/
   }
-  .imagenes {
-    margin-top: 10px;
-    margin-left: 8.5%;
+
+
+.contenedor-imagenes{
     display: flex;
-    width: 1100px;
-    height: 600px;
-    /*border: 3px solid black;*/
-    justify-content: space-between;  
-  }
-  .imagen1 {
-    /*border: 1px solid black;*/
-    flex: 0 1 32%;
-    max-width: 32%;
- }
-  .imagen2 {
-    /*border: 1px solid black;*/
-    flex: 0 1 33%;
-    max-width: 33% ;
-  }
-  .imagen3 {
-    /*border: 1px solid black;*/
-    max-width: 32%;
-    flex: 0 1 32%;
-  }
-  .imagenes2 {
-    margin-top: 10px;
-    margin-left: 8.5%;
-    display: flex;
-    width: 1100px;
-    height: 600px;
-    /*border: 3px solid black;*/
+    width: 80%;
+    height: 100%;
+    margin-left: 9%;
+    margin-top: 2%;
     justify-content: space-between;
-    
-  }
-  .imagen4 {
-    /*border: 1px solid black;*/
-    flex: 0 1 32%;
-    max-width: 32%;
- }
-  .imagen5 {
-    /*border: 1px solid black;*/
-    flex: 0 1 33%;
-    max-width: 33%;
-  }
-  .imagen6 {
-    /*border: 1px solid black;*/
-    flex: 0 1 32%;
-    max-width: 32%;
-  }/*aca empieza septima con imagen de fondo*/
-  .septima {
+}
+.contenedor-img {
+    position: relative;
+    width: 32%;
+}
+
+.imagen-fondo {
+    display: block;
+    width: 100%;
+}
+.contenedor-texto {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%; 
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0,0,0,.5);
+}
+.contenedor-texto i {
+    color: white;
+    font-size: 250%;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
+.contenedor-texto h3 {
+    color: white;
+    font-size: 150%;
+    position: absolute;
+    top: 55%;
+    right: 35%;  
+}
+.icono {
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 100px; 
+
+}
+.texto {
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.categoria {
+  font-size: 80%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;  
+}
+.contenedor-img:hover .contenedor-texto {
+    opacity: 1;
+}
+.septima {
     width: 100%;
     height: 427px;
-    background-image: url("manos_sobre_teclado.jpg");
+    background-image: url(manos_sobre_teclado.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
@@ -736,7 +724,6 @@ meter {
 .octava2 h3 {
     margin-top: 60px;
     color: rgb(58, 57, 57);
-    /*text-align: justify;*/
     padding-right: 15%;
 }
 
@@ -749,10 +736,6 @@ meter {
     text-align: justify;
 }
 .redes {
-    /*width: 240px;
-    height: 45px;
-    border: var(--paraBordes);
-    margin-top: 130px;*/
     position: relative;
     top: 110px;
     
@@ -776,10 +759,8 @@ meter {
     font-size: 220%;
 }
 form {
-    /*background-color: aquamarine;*/
     width: 480px;
     height: 500px;
-    /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
 }
@@ -787,14 +768,13 @@ label {
     margin: 15px 0 25px 0;
 }
 input[type=text] {
-    
     padding: 30px;
     border: 0;
     border-bottom: 1px solid black;
     background-color: var(--colorElegido);
 }
 textarea {
-    margin-bottom: 0;
+    margin-bottom: 70px;
     min-height: 80px;
     background-color: var(--colorElegido);
     border: 0;
@@ -802,17 +782,16 @@ textarea {
     resize: vertical;
 }
 .botonEnviar {
-    /*border: var(--paraBordes);*/
     background-color: black;
     width: 200px;
     height: 180px;
-    margin: 70px 0 0 0;
     font-size: 120%;
     padding: 15px 0;
     color: white;
-}
+    }
 .botonEnviar a {
     font-size: 100%;
     color: white;
+    
 }
 
